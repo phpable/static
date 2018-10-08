@@ -5,7 +5,7 @@ The phpABLE abstractions library provided an ability to declare static classes.
 * PHP >= 7.4.0
 
 ## Install
-There's a simple way to install ```Able/Statics``` into your project via [Composer](http://getcomposer.org):
+There's a simple way to install the ```able/statics``` package via [Composer](http://getcomposer.org):
 
 ```bash
 composer require able/statics
