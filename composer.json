@@ -18,5 +18,7 @@
 		"psr-4": {
 			"Able\\Statics\\": "src/"
 		}
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
