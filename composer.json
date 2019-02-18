@@ -1,0 +1,24 @@
+{
+	"name": "able/statics",
+	"version": "1.0",
+	"type": "library",
+	"keywords": ["phpable", "static"],
+	"description": "phpABLE static class implementation",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hacpaka",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"require": {
+		"php": ">=7.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Able\\Statics\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
