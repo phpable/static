@@ -7,7 +7,7 @@ trait TUncreatable {
 	 * @throws \Exception
 	 */
 	public final function __construct() {
-		throw new \Exception('Can\'t create an uncreatable object!');
+		throw new \Exception('Can not create a static object!');
 	}
 
 }

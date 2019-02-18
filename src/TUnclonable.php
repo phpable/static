@@ -7,6 +7,6 @@ trait TUnclonable {
 	 * @throws \Exception
 	 */
 	public final function __clone() {
-		throw new \Exception('Can\'t clone an unclonable object!');
+		throw new \Exception('Can not clone a static object!');
 	}
 }
