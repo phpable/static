@@ -1,6 +1,5 @@
 {
 	"name": "able/statics",
-	"version": "1.1",
 	"type": "library",
 	"keywords": ["phpable", "static"],
 	"description": "phpABLE static class implementation",
@@ -18,7 +17,5 @@
 		"psr-4": {
 			"Able\\Statics\\": "src/"
 		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	}
 }
