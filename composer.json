@@ -1,7 +1,7 @@
 {
 	"name": "able/statics",
 	"type": "library",
-	"keywords": ["phpable", "static"],
+	"keywords": ["phpable", "static-class"],
 	"description": "phpABLE static class implementation",
 	"license": "MIT",
 	"authors": [
@@ -11,14 +11,12 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4.0",
-		"able/exceptions": "dev-master"
+		"php": ">=8.0.0",
+		"able/exceptions": "^0.7.1"
 	},
 	"autoload": {
 		"psr-4": {
 			"Able\\Statics\\": "src/"
 		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	}
 }
