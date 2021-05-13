@@ -1,5 +1,5 @@
 <?php
-namespace Able\Statics;
+namespace Able\Static;
 
 trait TStatic {
 

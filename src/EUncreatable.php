@@ -1,5 +1,5 @@
 <?php
-namespace Able\Statics;
+namespace Able\Static;
 
 use Able\Exceptions\Abstractions\AException;
 

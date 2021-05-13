@@ -3,6 +3,7 @@ The phpABLE abstractions library provided an ability to declare static classes.
 
 ## Requirements
 * PHP >= 8.0.0
+* [able/exceptions](https://github.com/phpable/exceptions)
 
 ## Install
 There's a simple way to install the ```able/statics``` package via [Composer](http://getcomposer.org):
@@ -15,7 +16,7 @@ composer require able/statics
 Please, follow the example below:    
 
 ```php
-use \Able\Statics\TStatic;
+use \Able\Static\TStatic;
 
 class StaticExample {
     use TStatic;
